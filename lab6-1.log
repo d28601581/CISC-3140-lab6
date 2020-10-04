@@ -1,0 +1,226 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.10.03 22:45:29 =~=~=~=~=~=~=~=~=~=~=~=
+login as: pdong
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+pdong@146.245.252.28's password: 
+Last login: Sat Oct  3 22:42:28 2020 from cpe-104-162-73-94.nyc.res.rr.com
+l]0;pdong@sol28:~[?1034h[pdong@sol28 ~]$ ls
+[0m[01;34mlab6[0m
+]0;pdong@sol28:~[pdong@sol28 ~]$ cd lab6
+]0;pdong@sol28:~/lab6[pdong@sol28 lab6]$ ls
+[0m[01;34mRepo1[0m
+]0;pdong@sol28:~/lab6[pdong@sol28 lab6]$ cd Repo1
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ w[Kls
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ wget https://raw.githubusercontent.com/d28601581/Repo1/main /HelloWorld.java Gell[K[K[K[KHelloWorld.java
+--2020-10-03 22:46:09--  https://raw.githubusercontent.com/d28601581/Repo1/main/HelloWorld.java
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 199.232.36.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|199.232.36.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 125 [text/plain]
+Saving to: ‘HelloWorld.java’
+
+ 0% [                                       ] 0           --.-K/s              100%[======================================>] 125         --.-K/s   in 0s      
+
+2020-10-03 22:46:15 (5.67 MB/s) - ‘HelloWorld.java’ saved [125/125]
+
+--2020-10-03 22:46:15--  http://helloworld.java/
+Resolving helloworld.java (helloworld.java)... failed: Name or service not known.
+wget: unable to resolve host address ‘helloworld.java’
+FINISHED --2020-10-03 22:46:15--
+Total wall clock time: 6.1s
+Downloaded: 1 files, 125 in 0s (5.67 MB/s)
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ java HelloWorld.java
+Error: Could not find or load main class HelloWorld.java
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ java HelloWorld.java[K[K[K[K[K
+Error: Could not find or load main class HelloWorld
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ ls
+HelloWorld.java
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ javac HelloWorld.java
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ java HelloWorld
+Hello, World
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ nano
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                New Buffer                                      [23;1H^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[23d[J[24;80H[24;1H[?1049l[?1l>]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ nano HelloWorld.java
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1            File: HelloWorld.java                               [3;1H(B[mpublic class HelloWorld {[5;5Hpublic static void main(String[] args) {[6;9HSystem.out.println("Hello, World");[7;5H}[9d}[22;33H(B[0;7m[ Read 7 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d7[7;21r8M[1;24r[1;71H(B[0;7mModified[8d(B[m[A[7;9HSystem.out,p  .prin[22d[K[7;24Htln* ("Today is Saturday ");[22d(B[0;7mFile Name to Write: HelloWorld.java                                             [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;36H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[7;49H[23d[J[24;80H[24;1H[?1049l[?1l>]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ javac[K[K[K[K[Knano HelloWorld.java[Kjava HelloWorldc HelloWorld.java
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ javac HelloWorld.java[1Pnano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kjava HelloWorld
+Hello, World
+Today is Saturday
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ java[K[K[K[Kgit clone https://github.com/d28601581/RepoMeta.git
+Cloning into 'RepoMeta'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ ls
+HelloWorld.class  HelloWorld.java  [0m[01;34mRepoMeta[0m
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git add a[K--all
+warning: The behavior of 'git add --all (or -A)' with no path argument from a
+subdirectory of the tree will change in Git 2.0 and should not be used anymore.
+To add content for the whole tree, run:
+
+  git add --all :/
+  (or git add -A :/)
+
+To restrict the command to the current directory, run:
+
+  git add --all .
+  (or git add -A .)
+
+With the current Git version, the command is restricted to the current directory.
+
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git add -all .
+error: did you mean `--all` (with two dashes ?)
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git add -all .[1@-
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git status
+# On branch main
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   HelloWorld.class
+#	new file:   HelloWorld.java
+#	new file:   RepoMeta
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    ../README.md
+#
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git commit -m " [Kpushing [K[K[K[K [K[K[K[K[Kad  [K[Kding Hellow[KWorld to Met[K[K[K[K RepoMeta"
+[main ff729a1] adding HelloWorld to RepoMeta
+ 3 files changed, 9 insertions(+)
+ create mode 100644 Repo1/HelloWorld.class
+ create mode 100644 Repo1/HelloWorld.java
+ create mode 160000 Repo1/RepoMeta
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git push -u origin master
+Username for 'https://github.com': dongpeng101@gmail.com
+Password for 'https://dongpeng101@gmail.com@github.com': 
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/d28601581/RepoMeta.git'
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git remote add origin https://github.com/d28601581/RepoMeta .git
+fatal: remote origin already exists.
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git push origin master
+Username for 'https://github.com': dongpeng101@gmail.com
+Password for 'https://dongpeng101@gmail.com@github.com': 
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/d28601581/RepoMeta.git'
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ sets[K[K[K[Kgit remote -v
+origin	https://github.com/d28601581/RepoMeta.git (fetch)
+origin	https://github.com/d28601581/RepoMeta.git (push)
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ ls
+HelloWorld.class  HelloWorld.java  [0m[01;34mRepoMeta[0m
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ cd RepoMeta
+]0;pdong@sol28:~/lab6/Repo1/RepoMeta[pdong@sol28 RepoMeta]$ ls
+README.md
+]0;pdong@sol28:~/lab6/Repo1/RepoMeta[pdong@sol28 RepoMeta]$ git ad[K[K[K[K[K[K^C
+]0;pdong@sol28:~/lab6/Repo1/RepoMeta[pdong@sol28 RepoMeta]$ cd ..
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git add .
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git push 0u origin master[1P[1@-
+Username for 'https://github.com': dongpeng101@gmail.com	D 
+Password for 'https://dongpeng101@gmail.com@github.com': 
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/d28601581/RepoMeta.git'
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ u[Kgit commit -m "initial commit"
+# On branch main
+# Your branch is ahead of 'origin/main' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    ../README.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git push origin master
+Username for 'https://github.com': dongpeng101@gmail.com	
+Password for 'https://dongpeng101@gmail.com@github.com': 
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/d28601581/RepoMeta.git'
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ ls
+HelloWorld.class  HelloWorld.java  [0m[01;34mRepoMeta[0m
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ giy [K[Kt add HelloWorld.java
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git status
+# On branch main
+# Your branch is ahead of 'origin/main' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    ../README.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git init[Kt
+Initialized empty Git repository in /users1/st/pdong/lab6/Repo1/.git/
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git add Heelo[K[K[KlloWorld.k[Kjava
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git stutu[K[K[K[K[Kcommit -m Initial [K[K[K[K[K[K[K[K"Inita[Kial comment"
+[master (root-commit) 9a22108] Initial comment
+ 1 file changed, 8 insertions(+)
+ create mode 100644 HelloWorld.java
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git push -m g[K[K[K[K[K[K[K[K[Kremote add error: src refspec master does not match any .
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git remote add https://github.com/d28601581/RepoMeta.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git remote add origin https://github.com/d28601581/RepoMeta .git
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git remote -v
+origin	https://github.com/d28601581/RepoMeta.git (fetch)
+origin	https://github.com/d28601581/RepoMeta.git (push)
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git push origin master
+Username for 'https://github.com': dongpeng101@gmail.com
+Password for 'https://dongpeng101@gmail.com@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 342 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/d28601581/RepoMeta/pull/new/master[K
+remote: 
+To https://github.com/d28601581/RepoMeta.git
+ * [new branch]      master -> master
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git [K[K[K[Kls
+HelloWorld.class  HelloWorld.java  [0m[01;34mRepoMeta[0m
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git add HelloWorld.java
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git commit -m "add[K[K[Kadd existing file"
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	HelloWorld.class
+#	RepoMeta/
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$ git push origin master
+Username for 'https://github.com': dongpeng101@gmail.com
+Password for 'https://dongpeng101@gmail.com@github.com': 
+Everything up-to-date
+]0;pdong@sol28:~/lab6/Repo1[pdong@sol28 Repo1]$  [Ke[Kexit[K[K[K[K
