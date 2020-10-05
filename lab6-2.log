@@ -1,0 +1,114 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.10.05 00:13:43 =~=~=~=~=~=~=~=~=~=~=~=
+login as: pdoo ng
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+pdong@146.245.252.28's password: 
+Last login: Mon Oct  5 00:04:50 2020 from cpe-104-162-73-94.nyc.res.rr.com
+]0;pdong@sol28:~[?1034h[pdong@sol28 ~]$ ls
+[0m[01;34mlab6[0m
+]0;pdong@sol28:~[pdong@sol28 ~]$ cd lab6
+]0;pdong@sol28:~/lab6[pdong@sol28 lab6]$ mkdir Repo2
+]0;pdong@sol28:~/lab6[pdong@sol28 lab6]$ cd Reop[K[Kpo2
+]0;pdong@sol28:~/lab6/Repo2[pdong@sol28 Repo2]$ nano HelloWorld.java
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1            File: HelloWorld.java                               [22;35H[ New File ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mPublic Static Main [Z [Z   He[22d[K[3;17HlloWorld{[Z [Z2{[4d[5d[5;9Hpublic static void[Z[Z	[A[3;27H[Z[Z	[1Ppublic Static HelloWorld2{public 	tatic[1P[1P[1P[1P	[1P[1Pc HelloWorld2{[3;9Hl HelloWorld2{[3;10Ha HelloWorld2{[3;11Hs HelloWorld2{[3;12Hss HelloWorld2{[3;13H He	loWorld	{[4d[5d[5;9Hpublic 	tatic v	id[6d[5;27H main{String[] args)[Z[Z[1P{String[] args)[5;33H[1P[String[] args)[5;33H[1P(String[] args)[5;33HString[	 args){[6d[6;9H[6;17HSystem.out.println(h "HelloW  World");[7d[7;9H}[8d}[22d(B[0;7mFile Name to Write: HelloWorld.java                                             [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;36H[Z(B[0;7m2.java[Z(B[m(B[0;7mSave file under DIFFERENT NAME ?    [23d Y(B[m Yes[K[24d(B[0;7m N(B[m No    	(B[0;7m^C(B[m Cancel[K[22;34H[1;45H[39;49m(B[0;7m2.java[1;71H        [22;31H(B[m[1K (B[0;7m[ Wrote 6 lines ](B[m[K[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8d}[23d[J[24;80H[24;1H[?1049l[?1l>]0;pdong@sol28:~/lab6/Repo2[pdong@sol28 Repo2]$ ls
+HelloWorld2.java
+]0;pdong@sol28:~/lab6/Repo2[pdong@sol28 Repo2]$ svn[K[K[Ksvn cl[Ko https://github.com/d28601581/RepoMeta.git
+A    RepoMeta.git/branches
+A    RepoMeta.git/trunk
+A    RepoMeta.git/trunk/HelloWorld.java
+A    RepoMeta.git/trunk/README.md
+A    RepoMeta.git/trunk/lab6-1.log
+Checked out revision 4.
+]0;pdong@sol28:~/lab6/Repo2[pdong@sol28 Repo2]$ ls
+HelloWorld2.java  [0m[01;34mRepoMeta.git[0m
+]0;pdong@sol28:~/lab6/Repo2[pdong@sol28 Repo2]$ cd RepoMeta.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksvn add G[KHelo[KloWorld2.J[Kjava
+svn: E155007: '/users1/st/pdong/lab6/Repo2' is not a working copy
+]0;pdong@sol28:~/lab6/Repo2[pdong@sol28 Repo2]$ cd [K[K[Kcd trunk
+-bash: cd: trunk: No such file or directory
+]0;pdong@sol28:~/lab6/Repo2[pdong@sol28 Repo2]$ ls
+HelloWorld2.java  [0m[01;34mRepoMeta.git[0m
+]0;pdong@sol28:~/lab6/Repo2[pdong@sol28 Repo2]$ cd RepoMa[Kt[Keta.git
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git[pdong@sol28 RepoMeta.git]$ ls
+[0m[01;34mbranches[0m  [01;34mtrunk[0m
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git[pdong@sol28 RepoMeta.git]$ cd trunk
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ ls
+HelloWorld.java  lab6-1.log  README.md
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ svn add HelloWorld2.java
+svn: warning: W155010: '/users1/st/pdong/lab6/Repo2/RepoMeta.git/trunk/HelloWorld2.java' not found
+svn: E200009: Could not add all targets because some targets don't exist
+svn: E200009: Illegal target for the requested operation
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ cd .
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ cd ..
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git[pdong@sol28 RepoMeta.git]$  [Kcd ..
+]0;pdong@sol28:~/lab6/Repo2[pdong@sol28 Repo2]$ svb add =[K[K[K[K[K[K[K[K[Kcd ..[Ksvn add HelloWorld2.java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksvn add HelloWorld2.java
+svn: E155007: '/users1/st/pdong/lab6/Repo2' is not a working copy
+]0;pdong@sol28:~/lab6/Repo2[pdong@sol28 Repo2]$ cd RepoMeta.[K.git
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git[pdong@sol28 RepoMeta.git]$ cd trunk
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ nano h[KHw[KelloWorld3.jva[K[Kava
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1            File: HelloWorld3.java                              [22;35H[ New File ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mpublic class HelloWorld {[5;5Hpublic static void main(String[] args) {[6;9HSystem.out.println("Hello, World");[7;9HSystem.out.println("Today is Saturday");[8;5H}[10d}[22d[K[10d}[A[8;6H[7;49H[Z[Zd	y is Sa	urday")	       [Z [Z     [Z [Z       [Z [Z       [Z [Z       [K[7;9H[7;22r[22;1H
+[1;24r[6;44H[22d(B[0;7mFile Name to Write: HelloWorld3.java                                            [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;37H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 7 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[6;44H[A[A[3;26H[Z[1;71H(B[0;7mModified[3;24H(B[m3 {[Z[22d(B[0;7mFile Name to Write: HelloWorld3.java                                            [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;37H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 7 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;25H[23d[J[24;80H[24;1H[?1049l[?1l>]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ ls
+HelloWorld3.java  HelloWorld.java  lab6-1.log  README.md
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ javac HeeloWr[Korld3.java
+javac: file not found: HeeloWorld3.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ jv[Kavac HelloWOrld3.java[K[K[K[K[K.java
+javac: file not found: HelloWOrld3.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ javac HelloWOrld3.java[C[C[C[1Prld3.javaorld3.java
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ java HelloWOrld3[K[K[K[K[Korld3
+Hello, World
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ ls
+HelloWorld3.class  HelloWorld3.java  HelloWorld.java  lab6-1.log  README.md
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ svn add .
+svn: warning: W150002: '/users1/st/pdong/lab6/Repo2/RepoMeta.git/trunk' is already under version control
+svn: E200009: Could not add all targets because some targets are already versioned
+svn: E200009: Illegal target for the requested operation
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ svn add HelloWorld3,[K.kava[K[K[K[Kjava
+A         HelloWorld3.java
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ svn cm[Kommit -m "adding a HelloWorld [K.jva[K[K[K[1P HelloWorld.[1PHelloWorld.[C[C[C[C[C[C[C[C[C[C[C[Cjava3.java[C[C[C[C[C"
+Authentication realm: <https://github.com:443> GitHub
+Password for 'pdong': 
+Authentication realm: <https://github.com:443> GitHub
+Username: dongpeng101@gmail.com
+Password for 'dongpeng101@gmail.com': 
+
+-----------------------------------------------------------------------
+ATTENTION!  Your password for authentication realm:
+
+   <https://github.com:443> GitHub
+
+can only be stored to disk unencrypted!  You are advised to configure
+your system so that Subversion can store passwords encrypted, if
+possible.  See the documentation for details.
+
+You can avoid future appearances of this warning by setting the value
+of the 'store-plaintext-passwords' option to either 'yes' or 'no' in
+'/users1/st/pdong/.subversion/servers'.
+-----------------------------------------------------------------------
+Store password unencrypted (yes/no)? yes
+Adding         HelloWorld3.java
+Transmitting file data .
+Committed revision 5.
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ ls
+HelloWorld3.class  HelloWorld3.java  HelloWorld.java  lab6-1.log  README.md
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ nano HelloWorld3.java
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1            File: HelloWorld3.java                              [3;1H(B[mpublic class HelloWorld3 {[5;5Hpublic static void main(String[] args) {[6;9HSystem.out.println("Hello, World");[7;5H}[9d}[22;33H(B[0;7m[ Read 7 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d7[7;21r8M[1;24r[1;71H(B[0;7mModified[8d(B[m[A[7;9HSystem.out.println([22d[K[7;28H"Today is Sunday");[22d(B[0;7mFile Name to Write: HelloWorld3.java                                            [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;37H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[7;47H[23d[J[24;80H[24;1H[?1049l[?1l>]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ nano Hello[K[K[K[K[Kanother [K.java[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano another [K.java[K[K[K[Ktxt[K[K[K[K[K[K[K[K[K[K[KHell[K[K[K[KHelloa[K.kava[K[K[K[Kjava
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: Hello.java                                  [22;35H[ New File ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mPub  [Kpublic s calss    	 [22d[K[3;9Hlass Hello{[4d[5d[A[5d[5;9Hm[K[5;9Hpublic static ma      [Z [Z void mian      [Z [Z static void mian   ain	( (String[] args){[6d[7d}[K[7;9H[A[6;9H[6;17HSystem.out.print("random [Z      Hello");[7d[7;9H}[8d}[22d(B[0;7mFile Name to Write: Hello.java                                                  [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;31H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 6 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8d}[23d[J[24;80H[24;1H[?1049l[?1l>]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ svn add Hello.java
+A         Hello.java
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ svn commit -m "adding Hee[Kllo.java"
+Adding         Hello.java
+Sending        HelloWorld3.java
+Transmitting file data ..svu n   
+Committed revision 6.
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ svu[Kn up
+Updating '.':
+At revision 6.
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ ls
+Hello.java         HelloWorld3.java  lab6-1.log
+HelloWorld3.class  HelloWorld.java   README.md
+]0;pdong@sol28:~/lab6/Repo2/RepoMeta.git/trunk[pdong@sol28 trunk]$ exit
+logout
